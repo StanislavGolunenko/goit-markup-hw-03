@@ -132,33 +132,42 @@ body {
   color: #4d5ae5;
 }
 
-.hero {
-  background-color: #2e2f42;
+.hero-section {
+  padding: 188px 0;
+  text-align: center; /* опціонально, щоб заголовок і кнопка були по центру */
+  background-color: #2e2f42; /* приклад, можна прибрати */
 }
 
-/* Заголовок секции */
+/* Контейнер */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Заголовок */
 .hero-title {
+  max-width: 496px;
+  margin: 0 auto 48px; /* центрування + відступ знизу */
   font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  line-height: 1.1;
   color: #ffffff;
-  margin: 0;
 }
 
-/* Кнопка */
+
 .hero-button {
-  background-color: #404BBF;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
   border: none;
+  background-color: var(--brand-color, #4d5ae5); 
+  border-radius: 4px;
   cursor: pointer;
-  margin-top: 48px;
-  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 .logo-blue1 {
