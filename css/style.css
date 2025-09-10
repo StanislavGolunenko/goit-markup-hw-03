@@ -457,6 +457,10 @@ button:focus {
   cursor: pointer; 
 }
 
+img {
+  display: block;
+}
+
 
 
 
