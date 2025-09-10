@@ -340,6 +340,12 @@ button {
   padding: 100px;
 }
 
+.container {
+  max-width: 1200px;  
+  margin: 0 auto;     
+  padding: 0 15px;    
+}
+
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -349,6 +355,7 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+   display: inline-block;
 }
 
 .logo-studio {
@@ -362,6 +369,7 @@ button {
   color: #f4f4fd;
   margin-top: 16px;
   max-width: 264px;
+  margin: 0; 
 }
 
 .order {
