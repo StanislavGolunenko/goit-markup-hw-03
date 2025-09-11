@@ -43,6 +43,10 @@ body {
   color: #2e2f42;
 }
 
+.logo-studio {
+  color: #2E2F42;
+}
+
 /* Меню */
 .nav-menu {
   display: flex;
@@ -55,6 +59,7 @@ body {
   font-weight: 500;
   text-decoration: none;
   color: #2e2f42;
+  display: block;
 }
 
 /* Контакти */
@@ -70,10 +75,11 @@ body {
   text-decoration: none;
   color: #434455;
 }
+
 .hero-section {
   padding: 188px 0;
-  text-align: center; /* опціонально, щоб заголовок і кнопка були по центру */
-  background-color: #2e2f42; /* приклад, можна прибрати */
+  text-align: center; 
+  background-color: #2e2f42; 
 }
 
 /* Контейнер */
@@ -294,6 +300,7 @@ button {
 
 .team-section {
   padding: 120px 0;
+  background-color: #f4f4fd;
 }
 
 
@@ -325,8 +332,6 @@ button {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   background-color: #fff;
-  overflow: hidden;
-  display: block;
 }
 
 
@@ -373,16 +378,15 @@ button {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px;
+  gap: 20px;  
   list-style: none;
   padding: 0;
   margin: 0;
+  justify-content: center;
 }
 
 .portfolio-item {
   width: calc((100% - 48px) / 3);
-  background-color: #fff;
-  display: block;
 }
 
 
@@ -403,6 +407,11 @@ button {
 .portfolio-item-text {
   font-size: 16px;
   color: #434455;
+}
+
+.portfolio-item img {
+  display: block;
+   vertical-align: bottom;
 }
 
 .footer {
@@ -428,12 +437,13 @@ button {
   color: #4d5ae5;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 16px;
+
 }
 
 .logo-studio {
-  color: #f4f4fd; 
+    color: #2E2F42;  
 }
+
 
 .paragraf-footer {
   font-size: 16px;
@@ -461,6 +471,25 @@ button:focus {
 
 img {
   display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
+
+.footer .logo-link {
+  color: #4D5AE5; 
+}
+
+.footer .logo-link .logo-studio {
+  color: #F4F4FD; 
 }
 
 
