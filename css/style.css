@@ -383,6 +383,7 @@ button {
   padding: 0;
   margin: 0;
   justify-content: center;
+  
 }
 
 .portfolio-item {
@@ -437,7 +438,7 @@ button {
   color: #4d5ae5;
   text-decoration: none;
   display: inline-block;
-
+  margin-bottom: 16px;
 }
 
 .logo-studio {
@@ -452,7 +453,7 @@ button {
   color: #f4f4fd;
   margin-top: 16px;
   max-width: 264px;
-  margin: 0; 
+  
 }
 
 .order {
