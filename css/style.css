@@ -374,7 +374,7 @@ button {
 
 
 .portfolio-list {
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
