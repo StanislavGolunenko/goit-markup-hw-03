@@ -438,13 +438,12 @@ button {
   color: #4d5ae5;
   text-decoration: none;
   display: inline-block;
- 
-
+  margin-bottom: 16px; 
 }
 
 .logo-studio {
     color: #2E2F42;  
-margin-bottom: 16px;
+
 }
 
 
