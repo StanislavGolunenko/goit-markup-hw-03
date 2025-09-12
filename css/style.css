@@ -385,7 +385,7 @@ button {
   justify-content: center;
  margin-right: 24px;
  margin-bottom: 48px;
-
+ row-gap: 48px;
 }
 
 .portfolio-item {
@@ -440,6 +440,7 @@ button {
   color: #4d5ae5;
   text-decoration: none;
   display: inline-block;
+  margin-bottom: 16px; 
 
 }
 
