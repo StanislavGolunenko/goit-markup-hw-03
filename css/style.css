@@ -162,13 +162,13 @@ button {
   text-align: left;
 }
 
-/* Изображение внутри элемента списка */
+
 .portfolio-item img {
   max-width: 360px;
   margin: 0 auto;
 }
 
-/* Заголовки элементов списка */
+
 .item-title {
   font-weight: 500;
   font-size: 20px;
@@ -178,7 +178,7 @@ button {
   margin: 16px 0 8px;
 }
 
-/* Параграфы элементов списка */
+
 .item-description {
   font-size: 16px;
   line-height: 1.5;
@@ -388,7 +388,7 @@ color: #2e2f42;
   list-style: none;
   padding: 0;
   margin: 0;
- margin-right: 24px;
+   margin-right: 24px;
  margin-bottom: 48px;
  row-gap: 48px;
 }
