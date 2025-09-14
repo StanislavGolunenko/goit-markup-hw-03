@@ -23,7 +23,6 @@ body {
 }
 
 .container {
-  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -305,7 +304,6 @@ button {
 
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -359,12 +357,6 @@ button {
   padding-bottom: 120px;
 }
 
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 
 .portfolio-title {
@@ -432,7 +424,6 @@ color: #2e2f42;
 }
 
 .container {
-  max-width: 1200px;  
   margin: 0 auto;     
   padding: 0 15px;    
 }
