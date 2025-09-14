@@ -383,6 +383,10 @@ color: #2e2f42;
  row-gap: 48px;
 }
 
+.portfolio-item:first-child {
+  width: calc((100% - 48px) / 3);
+}
+
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
 }
